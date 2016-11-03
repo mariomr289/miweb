@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+	<form action="guarda.php" method="post">
+		Nombres: <input type="text" name="nombres" required="required"><br/>
+		Email: <input type="email" name="email" required="required"><br/>
+		Paises: <input list="Paises-europeos" />
+		<datalist id="Paises-europeos">
+			<option value="España">
+			<option value="Francia">
+			<option value="Alemania">
+			<option value="Portugal">
+			<option value="Holanda">
+		</datalist>
+	</form>
+</body>
+</html>
