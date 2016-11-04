@@ -21,3 +21,13 @@ h1{
 	color: #00FF00;
 	text-shadow: 0px 0px 15px #FF0040;
 }
+
+.btn{
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: #D4C31C;
+	background-color: blue;
+	color: black;
+	margin: 10px 0;
+	display: inline-block;
+}
