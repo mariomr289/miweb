@@ -30,4 +30,9 @@ h1{
 	color: black;
 	margin: 10px 0;
 	display: inline-block;
+	transition: 0.3s;
+}
+
+.btn:hover{
+	transform: scale(1.2);
 }
