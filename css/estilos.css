@@ -21,6 +21,33 @@ h2{
 p{
 	font-weight: 100;
 }
+
+.infoContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.infoContent .block h3{
+	font-size: 25px;
+	margin: 5px 0 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #429904;
+	text-shadow: 2px 2px 10px black;
+}
+
+
+.infoContent .block{
+	padding: 8px;
+	width: 100%;
+}
+
+.infoContent .block .icon-social{
+	font-size: 70px;
+}
+
 .iluminada{
 	font-size: 20px;
 	color: #999;
